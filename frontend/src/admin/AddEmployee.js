@@ -94,7 +94,9 @@ const handleFileSubmit = async()=>{
       {
         headers: {
           "Content-Type": "multipart/form-data",
+          Authorization:sessionStorage.getItem('AdminToken')
         },
+        
       }
     );
     if (response.status === 200) {
