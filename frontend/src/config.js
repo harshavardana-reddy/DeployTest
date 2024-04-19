@@ -1,7 +1,7 @@
 
 const BackendURLS = {
-    Admin: 'https://api-lusn.onrender.com/admin',
-    Employee: 'https://api-lusn.onrender.com/employee'
+    Admin: 'https://api-yadh.onrender.com/admin',
+    Employee: 'https://api-yadh.onrender.com/employee'
 };
 
 export default BackendURLS;
